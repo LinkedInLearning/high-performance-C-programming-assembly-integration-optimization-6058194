@@ -1,5 +1,5 @@
-# COURSENAME
-This is the repository for the LinkedIn Learning course `course-name`. The full course is available from [LinkedIn Learning][lil-course-url].
+# High-Performance C Programming: Assembly Integration and Optimization Techniques
+This is the repository for the LinkedIn Learning course `High-Performance C Programming: Assembly Integration and Optimization Techniques`. The full course is available from [LinkedIn Learning][lil-course-url].
 
 ![lil-thumbnail-url]
 
