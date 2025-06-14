@@ -72,5 +72,8 @@ int main()
 	else
 		printf("%s is unavailable\n",key->name);
 
+	/* clean-up */
+	free(key->name);
+	free(key);
 	return 0;
 }
