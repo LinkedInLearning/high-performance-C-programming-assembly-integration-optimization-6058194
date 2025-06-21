@@ -43,5 +43,7 @@ int main()
 		offset--;
 	}
 
+	/* clean-up */
+	free(buffer);
 	return 0;
 }
