@@ -14,7 +14,9 @@ int main()
 		fprintf(stderr,"Unable to initialize the stack\n");
 		exit(1);
 	}
-	sp = base;		/* stack pointer */
+
+	/* set up stack pointer */
+	sp = base;
 	puts("Stack ready");
 
 	/* clean-up */

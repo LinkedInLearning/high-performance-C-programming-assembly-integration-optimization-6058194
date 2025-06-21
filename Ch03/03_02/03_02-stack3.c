@@ -30,12 +30,10 @@ int main()
 
 	/* remove values from the stack */
 	sp--;				/* skip over empty item */
-	while(1)
+	while( sp>=base )
 	{
 		printf("Popping %d\n",*sp);		/* fetch value */
 		sp--;							/* adjust stack pointer */
-		if( sp<base )
-			break;
 	}
 
 	/* clean-up */
