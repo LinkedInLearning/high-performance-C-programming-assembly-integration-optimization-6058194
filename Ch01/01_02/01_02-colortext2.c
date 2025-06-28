@@ -12,7 +12,7 @@
 
 int main()
 {
-    printf("Being color test:\n");
+    printf("Begin color test:\n");
     printf("%sThis is colored text%s\n",FG_BLUE,FG_NORMAL);
     printf("End test\n");
 

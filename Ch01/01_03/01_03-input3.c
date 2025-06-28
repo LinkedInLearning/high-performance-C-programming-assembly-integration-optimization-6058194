@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 #define save_cursor() printf("\e7")
-#define restore_cursor() printf("\e8")
+#define restore_cursor() printf("\e8\e[0J")
 
 int main()
 {
@@ -14,7 +14,6 @@ int main()
 		save_cursor();
 		fgets(buffer,size,stdin);
 		restore_cursor();
-		printf("\e[0J");
 	}
 	while( buffer[0] != 'Q' );
 	putchar('\n');

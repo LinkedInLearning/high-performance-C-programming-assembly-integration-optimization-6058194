@@ -20,7 +20,7 @@
 
 int main()
 {
-    printf("Being color test:\n");
+    printf("Begin color test:\n");
     printf("%sThis is colored text%s\n","\e[30;47m",FG_NORMAL);
     printf("%sThis is colored text%s\n","\e[1;30;47m",FG_NORMAL);
     printf("End test\n");
