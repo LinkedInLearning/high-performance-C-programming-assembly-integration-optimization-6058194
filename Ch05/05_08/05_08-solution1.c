@@ -1,16 +1,16 @@
 #include <stdio.h>
 
 /* prototype the assembly function */
-int stringlength(char *);
+char firstchar(char *);
 
 int main()
 {
 	char sample[] = "Hello, Assembly!";
-	int len;
+	char a;
 
-	/* obtain the string length */
-	len = stringlength(sample);
-	printf("The string \"%s\" is %d characters long\n",sample,len);
+	/* fetch the first character in the string */
+	a = firstchar(sample);
+	printf("The first character of \"%s\" is '%c'\n",sample,a);
 
 	return 0;
 }
